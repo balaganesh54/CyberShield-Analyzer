@@ -1,0 +1,16 @@
+2026-10-06 05:12:01 src=203.0.113.77 user=admin event=login status=401 path=/login
+2026-10-06 05:12:09 src=203.0.113.77 user=admin event=login status=401 path=/login
+2026-10-06 05:12:17 src=203.0.113.77 user=admin event=login status=401 path=/login
+2026-10-06 05:12:28 src=203.0.113.77 user=admin event=login status=200 path=/login
+2026-10-06 05:13:02 src=203.0.113.77 user=guest event=login status=401 path=/login
+2026-10-06 05:13:08 src=203.0.113.77 user=operator event=login status=401 path=/login
+2026-10-06 10:01:00 src=198.51.100.24 user=alice event=login status=200 path=/login
+2026-10-06 10:03:12 src=198.51.100.24 user=alice event=request status=200 path=/dashboard
+2026-10-06 10:04:22 src=198.51.100.24 user=alice event=request status=403 path=/admin
+2026-10-06 10:05:14 src=198.51.100.24 user=alice event=request status=404 path=/missing
+2026-10-06 10:05:19 src=198.51.100.24 user=alice event=request status=500 path=/api/report
+2026-10-06 10:05:21 src=198.51.100.24 user=alice event=request status=404 path=/missing2
+2026-10-06 10:05:23 src=198.51.100.24 user=alice event=request status=404 path=/missing3
+2026-10-06 10:05:25 src=198.51.100.24 user=alice event=request status=200 path=/dashboard
+2026-10-06 23:48:11 src=198.51.100.88 user=bob event=login status=200 path=/login
+2026-10-06 23:49:11 src=198.51.100.88 user=bob event=request status=200 path=/dashboard

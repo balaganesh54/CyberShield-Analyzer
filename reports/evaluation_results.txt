@@ -1,0 +1,1 @@
+Run `python evaluate.py` after installing backend dependencies to generate the current metrics and confusion matrix from data/url_test_cases.csv.

@@ -1,0 +1,16 @@
+url,expected
+https://www.google.com,Legitimate
+https://github.com/login,Legitimate
+https://www.microsoft.com,Legitimate
+https://example.org/about,Legitimate
+https://www.cloudflare.com/products/security,Legitimate
+http://example.com/update-account,Suspicious
+https://example.com/a?x=@test,Suspicious
+http://bit.ly/news,Suspicious
+http://example.com:8080/home,Suspicious
+http://news-example.com/article,Suspicious
+http://secure-login-example.com/verify-account,Phishing
+http://185.199.110.7/login,Phishing
+http://bit.ly/free-gift-login,Phishing
+https://account-security.example.com/verify/password/update,Phishing
+http://a.b.c.d.example.com/secure/account/login,Phishing
